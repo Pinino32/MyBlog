@@ -1,0 +1,116 @@
+
+body {
+    background: #ffff;
+    font-family: Arial, Helvetica, sans-serif;   
+}
+
+#tutulo {
+    width: 90%;
+    margin: 0px auto;
+}
+
+header h1 {
+    background: #101c22;
+    height: 200px;
+    width: 100%;
+    text-align: center;
+    line-height: 200px;
+    color :#ffff;
+    font-size: 50px;
+}
+
+nav {
+    height: 50px;
+    border-bottom: 5px solid #ffff;
+}
+
+nav ul li {
+  
+    margin: 10px;
+    color: #ffff;
+    font-size: 20px;
+ 
+}
+
+
+.main-nav {
+    background: #121313;
+    height: 50px;
+    margin-top: 16px;
+    list-style: none;
+    padding-left: 0px;
+    border-bottom: 5px solid #ffff;
+}    
+
+.main-nav__item {
+    display: inline-block;
+
+}
+
+.main-nav__item a {
+    color:#fff;
+    padding: 0px;
+    border-radius: 10px;
+    text-decoration: none;
+    list-style: none;
+    margin: 10px;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.main-nav__item a:hover {
+    color: #000;
+}
+
+.main-nav__item a:active {
+    color: blue;
+    font-size: 20px;
+}
+
+.main-nav__item::after {
+    content: " | " ;
+}
+
+
+.clear {
+    clear: both;
+}
+
+#main {
+    float: left;
+    width: calc(80% - 80px);
+    min-height: 500px;
+    background: #ffff;
+    padding: 40px;
+
+}
+
+.article {
+    color: #000;
+    margin-bottom: 15px;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #000;
+
+}
+
+aside {
+    float: left;
+    width: calc(20% - 20px);
+    min-height: 500px;
+    background: #101c22;
+    padding: 10px;
+}
+
+aside h1 {
+    color: #ffff;
+
+}
+
+footer {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+}
